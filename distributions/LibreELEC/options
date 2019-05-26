@@ -18,7 +18,7 @@
   GREETING1="#                 LibreELEC                  #"
   GREETING2="#            https://libreelec.tv            #"
   GREETING3="##############################################"
-  GREETING4=""
+  GREETING4="******** CUSTOM BUILD BY MATT FILETTO ********"
 
 # Root password to integrate in the target system
   ROOT_PASSWORD="libreelec"
@@ -147,17 +147,17 @@
   JOYSTICK_SUPPORT="yes"
 
 # build and install CEC adapter support (yes / no)
-  CEC_SUPPORT="yes"
+  CEC_SUPPORT="no"
 
 # build and install CEC framework support (yes / no)
   CEC_FRAMEWORK_SUPPORT="no"
 
 # build and install iSCSI support - iscsistart (yes / no)
-  ISCSI_SUPPORT="yes"
+  ISCSI_SUPPORT="no"
 
 # Support for partitioning and formating disks in initramfs (yes / no)
 # This adds support for parted and mkfs.ext3/4 to initramfs for OEM usage
-  INITRAMFS_PARTED_SUPPORT="no"
+  INITRAMFS_PARTED_SUPPORT="yes"
 
 # build with swap support (yes / no)
   SWAP_SUPPORT="yes"
@@ -200,7 +200,7 @@
   ADDON_URL="$ADDON_SERVER_URL/$ADDON_PATH"
 
 # Default size of system partition, in MB, eg. 512
-  SYSTEM_SIZE=512
+  SYSTEM_SIZE=1024
 # Default system partition offset, in sectors, eg. 2048
   SYSTEM_PART_START=8192
 

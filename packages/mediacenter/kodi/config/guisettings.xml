@@ -1,4 +1,5 @@
 <settings version="2">
+<setting id="input.enablemouse" default="true">false</setting>
   <general>
     <settinglevel>2</settinglevel>
   </general>

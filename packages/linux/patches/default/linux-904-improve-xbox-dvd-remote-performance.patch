@@ -106,7 +106,7 @@ index f959cbb94744..79470c09989e 100644
  	rdev->device_name = xbox_remote->rc_name;
  	rdev->input_phys = xbox_remote->rc_phys;
  
-+	rdev->timeout = MS_TO_NS(10);
++	rdev->timeout = MS_TO_NS(5);
 +
  	usb_to_input_id(xbox_remote->udev, &rdev->input_id);
  	rdev->dev.parent = &xbox_remote->interface->dev;
