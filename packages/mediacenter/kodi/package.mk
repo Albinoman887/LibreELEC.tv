@@ -24,7 +24,7 @@ case $KODI_VENDOR in
     PKG_SOURCE_NAME="kodi-$KODI_VENDOR-$PKG_VERSION.tar.gz"
     ;;
   *)
-    PKG_VERSION="july20-rebase-18.3"
+    PKG_VERSION="sep10-leia-18.4"
     PKG_SHA256=""
     PKG_URL="https://github.com/Albinoman887/xbmc/archive/$PKG_VERSION.tar.gz"
     PKG_SOURCE_NAME="kodi-$PKG_VERSION.tar.gz"
