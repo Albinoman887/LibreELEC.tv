@@ -18,7 +18,7 @@
   GREETING1="#                 LibreELEC                  #"
   GREETING2="#            https://libreelec.tv            #"
   GREETING3="##############################################"
-  GREETING4=""
+  GREETING4="******** CUSTOM BUILD BY MATT FILETTO ********"
 
 # Root password to integrate in the target system
   ROOT_PASSWORD="libreelec"
