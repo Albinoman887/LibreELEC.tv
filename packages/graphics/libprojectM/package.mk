@@ -3,11 +3,11 @@
 # Copyright (C) 2018-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="libprojectM"
-PKG_VERSION="master"
-PKG_SHA256=""
+PKG_VERSION="v3.1.1-rc7"
+PKG_SHA256="97ca3837c889bcef9df8239de831b0db9d01b3e14a6301827d126fdfc660bf71"
 PKG_LICENSE="GPL"
-PKG_SITE="https://github.com/Albinoman887/projectm"
-PKG_URL="https://github.com/Albinoman887/projectm/archive/$PKG_VERSION.tar.gz"
+PKG_SITE="https://github.com/projectM-visualizer/projectm"
+PKG_URL="https://github.com/projectM-visualizer/projectm/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain freetype glm $OPENGL"
 PKG_LONGDESC="A MilkDrop compatible opensource music visualizer."
 PKG_TOOLCHAIN="configure"
