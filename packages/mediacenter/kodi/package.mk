@@ -241,6 +241,7 @@ configure_package() {
                          -DENABLE_DEBUGFISSION=OFF \
                          -DENABLE_APP_AUTONAME=OFF \
                          -DENABLE_INTERNAL_FLATBUFFERS=OFF \
+                         -DCMAKE_BUILD_TYPE=Debug \
                          $PKG_KODI_USE_LTO \
                          $KODI_ARCH \
                          $KODI_NEON \
@@ -360,7 +361,7 @@ post_makeinstall_target() {
       cp $PKG_DIR/fonts/*.ttf $INSTALL/usr/share/kodi/media/Fonts
   fi
 
-  debug_strip $INSTALL/usr/lib/kodi/kodi.bin
+  #debug_strip $INSTALL/usr/lib/kodi/kodi.bin
 }
 
 post_install() {
